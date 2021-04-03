@@ -63,3 +63,16 @@ global session
 
 57. Difference b/w primitive data types and Wrapper classes in java.
 58. What is Divide and Conquor approach. Where have you used explain with an example.
+
+### Harman 2nd round Interview Questions -
+60. What does the `add` method of ArrayList, HashSet and HashMap returns ?
+61. In which scenario, ArrayList add method returns false ?
+62. Does an abstract class in java have empty or no methods at all ? ---> `abstract class A{}`
+63. Why we can't create an object of abstract class ?
+64. What is the difference between default and static methods inside interfaces in java 8
+65. What is autoboxing and un-boxing in java ?
+66. Why java have wrapper classes if primitive types were already there ?
+67. What is the difference between a List and a Set ?
+68. What happens when a class is implementing 2 interfaces which is having same default method, how compiler will decide which one to call ? How this ambiguity can be resolved ?
+69. Similar as above instead of default method if we have static method will the behavior is same ?
+70. What are the characteristics of hashmap and what does hash function's return type ?
