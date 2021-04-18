@@ -55,6 +55,7 @@ public static String getGenericStr(String word, List<String> str) {
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 
 7. Write a program in java 8 to sort elements by frequency in decreasing order
+
 input: {"mouse", "notebook", "keyboard", "mouse", "notebook"}
 output: {mouse=2, keyboard=1, notebook=2}
 
