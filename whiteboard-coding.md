@@ -38,3 +38,68 @@ Solution: https://github.com/codedecks-in/LeetCode-Solutions/blob/master/Java/mi
 
 5. If a very large sized file (approx 2GB) is given and we have to read and then stores it into DB. Will there be any Out Of Memory error occurs?
 How will you able to achieve this task ?
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+6. Write a program in java 8 which will return the string itself it is present in the list else throw an exception.
+
+```
+public static String getGenericStr(String word, List<String> str) {
+		
+    return str.stream()
+              .filter(list -> list.contains(word))
+              .findFirst()
+              .orElseThrow(RuntimeException::new);
+}
+```
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+7. Write a program in java 8 to sort elements by frequency in decreasing order
+input: {"mouse", "notebook", "keyboard", "mouse", "notebook"}
+output: {mouse=2, keyboard=1, notebook=2}
+
+```
+public class HackerRankCandidateProgram {
+
+	public static void main(String[] args) {
+		List<String> transactions = List.of("mouse", "notebook", "keyboard", "mouse", "notebook");
+		groupTransactions(transactions).forEach(element -> System.out.println(element));
+	}
+
+	public static List<Map.Entry<String, Integer>> groupTransactions(List<String> transactions) {
+
+		Map<String, Integer> transactMap = new HashMap<>();
+
+		for (int i = 0; i < transactions.size(); i++) {
+			if (!transactMap.isEmpty() && transactMap.containsKey(transactions.get(i))) {
+				int val = transactMap.get(transactions.get(i));
+
+				transactMap.put(transactions.get(i), val + 1);
+			} else {
+				transactMap.put(transactions.get(i), 1);
+			}
+		}
+
+		Comparator<Map.Entry<String, Integer>> comparator = (entry1, entry2) -> {
+
+			if (entry1.getValue() > entry2.getValue()) {
+				return -1;
+			} else if (entry1.getValue() < entry2.getValue()) {
+				return 1;
+			} else {
+				return entry1.getKey().compareTo(entry2.getKey());
+			}
+		};
+
+		List<Map.Entry<String, Integer>> arr = new ArrayList<Map.Entry<String, Integer>>(transactMap.entrySet());
+
+		Collections.sort(arr, comparator);
+
+		// System.out.println(arr);
+
+		return arr;
+	}
+}
+```
+
+
