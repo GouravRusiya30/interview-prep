@@ -105,15 +105,13 @@ public class HackerRankCandidateProgram {
 
 8. Write a method to check if a input string is valid given a string pattern that specifies valid characters and the order both the strings contain comma separated characters. It returns true if following rules are satisfied
 
-1. All characters in input string appear in pattern string and also appear in same order as the pattern string
-2. Characters in input string appear in same order as that in pattern
-3. Characters in input string can skip characters from pattern as long as the order of characters is same
+	1. All characters in input string appear in pattern string and also appear in same order as the pattern string
+	2. Characters in input string appear in same order as that in pattern
+	3. Characters in input string can skip characters from pattern as long as the order of characters is same
 
-If the above rules are NOT satisfied then the method returns false
+	If the above rules are NOT satisfied then the method returns false
 
-Examples
-System.out.println(validator.validate("DXD", "ABCDEFG")); // false
-System.out.println(validator.validate("DEF", "ABCDEFG")); // true
-System.out.println(validator.validate("ADEG", "ABCDEFG")); // true
-System.out.println(validator.validate("", "ABCDEFG")); // false
-
+	Examples:
+	`System.out.println(validator.validate("DXD", "ABCDEFG")); // false`
+	`System.out.println(validator.validate("DEF", "ABCDEFG")); // true`
+	`System.out.println(validator.validate("ADEG", "ABCDEFG")); // true`
