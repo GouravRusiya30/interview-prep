@@ -103,6 +103,8 @@ public class HackerRankCandidateProgram {
 }
 ```
 
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
 8. Write a method to check if a input string is valid given a string pattern that specifies valid characters and the order both the strings contain comma separated characters. It returns true if following rules are satisfied
 
 	1. All characters in input string appear in pattern string and also appear in same order as the pattern string
@@ -115,3 +117,14 @@ public class HackerRankCandidateProgram {
 	`System.out.println(validator.validate("DXD", "ABCDEFG")); // false`
 	`System.out.println(validator.validate("DEF", "ABCDEFG")); // true`
 	`System.out.println(validator.validate("ADEG", "ABCDEFG")); // true`
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+9. Your task is to write a function named `do_math` that receives a single argument. 
+	- This argument is a string that contains multiple whitespace delimited numbers.
+	- Each number has a single alphabet letter somewhere within it.
+	`Example : "24z6 1x23 y369 89a 900b"`
+	- As shown above, this alphabet letter can appear anywhere within the number. You have to extract the letters and sort the numbers according to their corresponding letters.
+	`Example : "24z6 1x23 y369 89a 900b" will become 89 900 123 369 246 (ordered according to the alphabet letter)`
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
