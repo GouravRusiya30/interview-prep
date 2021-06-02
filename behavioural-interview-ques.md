@@ -1,8 +1,9 @@
 ## Cultural Fit or Behavioural Interview questions
 
 ### Research About Company
-- Nike is the world’s leading designer and marketer of high-quality athletic footwear, athletic apparel, and accessories.
-- Nike is the Goddess of Victory in Greek Mythology.
+- Invest sometime in researching about the company
+- Check their wikipedia page and their websites
+- Look through their mission and values
 
 
 ### Use STAR technique
