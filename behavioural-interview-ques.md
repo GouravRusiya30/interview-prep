@@ -1,9 +1,9 @@
 ## Cultural Fit or Behavioural Interview questions
 
 ### Research About Company
-- Invest sometime in researching about the company
-- Check their wikipedia page and their websites
-- Look through their mission and values
+- Invest sometime in doing research about the company
+- Check their wikipedia page and their official website
+- Do check out their Mission and Values
 
 
 ### Use STAR technique
@@ -33,3 +33,9 @@ working with people who are committed to getting things done and who are passion
 
 
 3. When you have completed a difficult task or project
+
+### Amazon Leadership Principles
+(VIDEO)[https://www.youtube.com/watch?v=6LQrs-m-40o]
+
+### Googlyness
+
