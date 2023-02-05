@@ -64,7 +64,6 @@ global session
 57. Difference b/w primitive data types and Wrapper classes in java.
 58. What is Divide and Conquor approach. Where have you used explain with an example.
 
-### Harman 2nd round Interview Questions -
 60. What does the `add` method of ArrayList, HashSet and HashMap returns ?
 61. In which scenario, ArrayList add method returns false ?
 62. Does an abstract class in java have empty or no methods at all ? ---> `abstract class A{}`
