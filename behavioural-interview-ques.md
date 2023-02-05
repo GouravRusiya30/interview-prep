@@ -35,7 +35,10 @@ working with people who are committed to getting things done and who are passion
 3. When you have completed a difficult task or project
 
 ### Amazon Leadership Principles
-[VIDEO](https://www.youtube.com/watch?v=6LQrs-m-40o)
+[Amazon’s Leadership Principles](https://www.youtube.com/watch?v=RzlUQCy84rQ&t=275s&ab_channel=DanCroitor)
 
 ### Googlyness
 [Interviewing for Googleyness at Google](https://www.youtube.com/watch?v=TWFs3dxfiOc)
+
+### Leadership Playlist (Search for specific interview from this)
+[Leadership Series](https://youtube.com/playlist?list=PLLucmoeZjtMQK8T111wCvqnfOd0qGFqzL)
